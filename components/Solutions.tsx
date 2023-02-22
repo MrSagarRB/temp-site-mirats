@@ -5,10 +5,17 @@ import React, { useState } from "react";
 import cardBG1 from "../assets/card bg1.png";
 import cardBG2 from "../assets/card bg2.png";
 import cardBG3 from "../assets/card bg3.png";
+import { motion } from "framer-motion";
 
 const Solutions = () => {
   return (
-    <section id="solutions" className="h-screen px-[200px] pt-[100px]">
+    <motion.section
+      whileInView={{ y: 0 }}
+      initial={{ y: 200 }}
+      transition={{ duration: 0.7 }}
+      id="solutions"
+      className="h-screen px-[200px] pt-[100px]"
+    >
       <div className=" h-full w-full grid grid-cols-2 gap-[25px]">
         <div className=" rounded-2xl h-[600px] overflow-hidden">
           <Image src={cardBG1} alt="card" />
@@ -22,7 +29,7 @@ const Solutions = () => {
           <Image src={cardBG3} alt="card" />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

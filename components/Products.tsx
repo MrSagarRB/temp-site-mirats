@@ -1,10 +1,15 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import miLogo from "../assets/loader.png";
+import { motion } from "framer-motion";
 
 const Products = () => {
   return (
-    <section
+    <motion.section
+      whileInView={{ y: 0 }}
+      initial={{ y: 200 }}
+      transition={{ duration: 0.9 }}
       id="products"
       className="  px-[244px] flex flex-col items-center pt-[100px]"
     >
@@ -26,7 +31,7 @@ const Products = () => {
           </p>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
