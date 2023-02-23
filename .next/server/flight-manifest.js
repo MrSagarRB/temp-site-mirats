@@ -1,5 +1,57 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./assets/loader.png": {
+      "": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.tsx": {
+      "": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./assets/card bg1.png": {
       "": {
         "id": "(sc_client)/./assets/card bg1.png",
@@ -104,32 +156,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./assets/loader.png": {
-      "": {
-        "id": "(sc_client)/./assets/loader.png",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./assets/loader.png",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./assets/loader.png",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/HeroSection.tsx": {
       "": {
         "id": "(sc_client)/./components/HeroSection.tsx",
@@ -149,6 +175,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./components/HeroSection.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Impact.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Impact.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Impact.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Impact.tsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -204,32 +256,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/layout.tsx": {
-      "": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -345,6 +371,67 @@ self.__RSC_MANIFEST={
       "static/css/app/layout.css"
     ]
   },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/styles/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/loader.png": {
+    "": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout.tsx": {
+    "": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg1.png": {
     "": {
       "id": "(app-client)/./assets/card bg1.png",
@@ -449,32 +536,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/loader.png": {
-    "": {
-      "id": "(app-client)/./assets/loader.png",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./assets/loader.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./assets/loader.png",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
   "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/HeroSection.tsx": {
     "": {
       "id": "(app-client)/./components/HeroSection.tsx",
@@ -494,6 +555,32 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./components/HeroSection.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Impact.tsx": {
+    "": {
+      "id": "(app-client)/./components/Impact.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Impact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Impact.tsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -549,41 +636,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/styles/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    }
-  },
-  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout.tsx": {
-    "": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     }

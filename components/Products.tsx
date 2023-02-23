@@ -11,7 +11,7 @@ const Products = () => {
       initial={{ y: 200 }}
       transition={{ duration: 0.9 }}
       id="products"
-      className="  px-[244px] flex flex-col items-center pt-[100px]"
+      className="  px-[244px] flex flex-col items-center pt-[100px] "
     >
       <div className=" flex flex-col justify-center items-center ">
         <div className="flex flex-col gap-[50px] items-center justify-center">
