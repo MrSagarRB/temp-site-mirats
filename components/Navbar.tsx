@@ -1,14 +1,16 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import miLogo from "../assets/loader.png";
 
+interface NavItem {
+  label: string;
+  page: string;
+}
 const Navbar = () => {
-  interface NavItem {
-    label: string;
-    page: string;
-  }
-
+  let [showNav, setShowNav] = useState(false);
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: "Products",
@@ -32,8 +34,18 @@ const Navbar = () => {
     },
   ];
 
+  useEffect(() => {
+    setTimeout(() => {
+      setShowNav(true);
+    }, 1000);
+  }, []);
+
   return (
-    <header className="bg-[#ECECEC73] h-[63px] w-full flex items-center justify-center sticky top-0 z-40">
+    <header
+      className={`bg-[#ECECEC73] h-[63px] w-full flex items-center justify-center sticky top-0 z-40  opacity-0 duration-500 ${
+        showNav && "opacity-100"
+      }`}
+    >
       <div className="flex items-center gap-[45px]">
         <div>
           <a href="#">

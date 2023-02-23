@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import bgImage from "../assets/herobg.png";
 import { motion } from "framer-motion";
 
@@ -14,6 +14,7 @@ const HeroSection = () => {
           className="h-full w-full object-fill "
         />
       </div>
+      {/* <div className="bg-[#000] h-full w-full absolute z-20 opacity-20 "> </div> */}
       <div className="mt-[300px] ml-[100px] relative z-20">
         <p className="text-[80px] font-[700] leading-[100%]">
           Work smarter,

@@ -8,7 +8,6 @@ const Impact = () => {
       whileInView={{ y: 0 }}
       initial={{ y: 200 }}
       transition={{ duration: 0.7 }}
-      id="solutions"
       className=" px-[200px] pt-[100px] "
     >
       <p className="font-[700] text-[86px] leading-[86px]">

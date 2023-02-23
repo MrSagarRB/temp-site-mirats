@@ -4,6 +4,7 @@ import Products from "@/components/Products";
 import Solutions from "@/components/Solutions";
 import Impact from "@/components/Impact";
 import Carousel from "@/components/Carousel";
+import AtYourService from "@/components/AtYourService";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Impact />
         <Carousel />
       </div>
+      <AtYourService />
     </main>
   );
 }
