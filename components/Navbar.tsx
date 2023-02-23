@@ -49,10 +49,10 @@ const Navbar = () => {
             );
           })}
         </nav>
-        <button className="px-[15px] py-[5px] border border-[#000000] rounded-[23px]">
+        <button className="px-[15px] py-[5px] border border-[#000000] hover:bg-[#000000] hover:text-[#ffff] rounded-[23px] duration-500">
           Contact Sales
         </button>
-        <button className="px-[15px] py-[5px] border border-transparent  hover:border-[#000000] rounded-[23px] hover:bg-transparent bg-[#E3E3E3]">
+        <button className="px-[15px] py-[5px] border border-transparent  hover:border-[#000000] rounded-[23px] hover:bg-transparent bg-[#E3E3E3] duration-500">
           Start Free Trial
         </button>
       </div>
