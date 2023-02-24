@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import miLogo from "../assets/loader.png";
 import { motion } from "framer-motion";
 interface NavItem {
@@ -48,14 +48,110 @@ const Navbar = () => {
     // }, 1000);
   }, []);
 
+  let productsData = [
+    {
+      heading: "Explore Products",
+      data: [
+        { title: "Mirats Insights illustrate", link: "#" },
+        {
+          title: "Mirats Insights One",
+          link: "#",
+        },
+        {
+          title: "Mirats Insights Blaze",
+          link: "#",
+        },
+      ],
+    },
+    {
+      heading: "More from Products",
+      data: [
+        { title: "illustrate Support", link: "#" },
+        {
+          title: "MI One Support",
+          link: "#",
+        },
+      ],
+    },
+  ];
+
+  let solutions = [
+    {
+      heading: "Quantitative Solutions",
+      data: [
+        { title: "Online Surveys", link: "#" },
+        {
+          title: "DIY Surveys",
+          link: "#",
+        },
+        {
+          title: "Global Sample",
+          link: "#",
+        },
+        {
+          title: "Global Quantitative Fieldwork",
+          link: "#",
+        },
+        {
+          title: "End to End Sample Service",
+          link: "#",
+        },
+      ],
+    },
+    {
+      heading: "Qualitative Solutions",
+      data: [
+        { title: "In-person Qual", link: "#" },
+        {
+          title: "Digital Qual",
+          link: "#",
+        },
+        {
+          title: "Telephonic Qual",
+          link: "#",
+        },
+        {
+          title: "Global Qualitative Fieldwork",
+          link: "#",
+        },
+      ],
+    },
+    {
+      heading: "Specialist Solutions",
+      data: [
+        { title: "Recruitment", link: "#" },
+        {
+          title: "Digital Qual",
+          link: "#",
+        },
+        {
+          title: "Consulting",
+          link: "#",
+        },
+        {
+          title: "Hybrid Research",
+          link: "#",
+        },
+        {
+          title: "Product Tests",
+          link: "#",
+        },
+        {
+          title: "Transcription",
+          link: "#",
+        },
+      ],
+    },
+  ];
+
   console.log(selectedMenu);
   let getCorrectMenu = (selectedMenu: String) => {
     switch (selectedMenu) {
       case "Products":
-        return <Products />;
+        return <Menu props={productsData} />;
         break;
       case "Solutions":
-        return <Solutions />;
+        return <Menu props={solutions} />;
         break;
       case "Industry":
         return <Industry />;
@@ -79,9 +175,9 @@ const Navbar = () => {
       <div className="flex flex-col  items-center  ">
         <div className="flex items-center gap-[45px] ">
           <div>
-            <a href="#">
+            <Link href="#">
               <Image src={miLogo} alt="mirats insights logo" />
-            </a>
+            </Link>
           </div>
           <nav className="flex space-x-6 font-[400] text-[14px]">
             {NAV_ITEMS.map((item, idx) => {
@@ -89,7 +185,7 @@ const Navbar = () => {
                 <p
                   onMouseEnter={() => setSelectedMenu(item.label)}
                   key={idx}
-                  className={""}
+                  className="cursor-pointer"
                 >
                   {item.label}
                 </p>
@@ -116,7 +212,30 @@ const Navbar = () => {
 
 export default Navbar;
 
-const Products = () => {
+const Menu = ({ props }) => {
+  return (
+    <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
+      {props.map((item) => {
+        return (
+          <div className="">
+            <p className="text-[15px]"> {item.heading}</p>
+            <div className="mt-[10px] flex flex-col">
+              {item?.data?.map((item) => {
+                return (
+                  <Link href={item.link} className="text-[20px] font-[600]">
+                    {item.title}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+const Solutions = () => {
   let productsData = [
     {
       heading: "Quantitative Solutions",
@@ -185,29 +304,6 @@ const Products = () => {
       ],
     },
   ];
-  return (
-    <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
-      {productsData.map((item) => {
-        return (
-          <div className="">
-            <p className="text-[15px]"> {item.heading}</p>
-            <div className="mt-[10px] flex flex-col">
-              {item?.data?.map((item) => {
-                return (
-                  <a href={item.link} className="text-[20px] font-[600]">
-                    {item.title}
-                  </a>
-                );
-              })}
-            </div>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
-
-const Solutions = () => {
   return <div className="h-[300px] w-full">Solution</div>;
 };
 
