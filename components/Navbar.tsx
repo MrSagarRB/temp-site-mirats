@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import miLogo from "../assets/loader.png";
-
+import { motion } from "framer-motion";
 interface NavItem {
   label: string;
   page: string;
@@ -63,7 +63,15 @@ const Navbar = () => {
     }
   };
   return (
-    <header
+    <motion.header
+      initial={{
+        height: 0,
+        opacity: 0,
+      }}
+      animate={{
+        height: "auto",
+        opacity: 1,
+      }}
       onMouseEnter={() => setShowNav(true)}
       onMouseLeave={() => handleOnLeave()}
       className={`bg-[#fff]  min-h-[63px] w-full flex items-center justify-center fixed top-0 z-40  duration-500 py-[20px]   `}
@@ -102,7 +110,7 @@ const Navbar = () => {
           {getCorrectMenu(selectedMenu)}
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 };
 
@@ -178,7 +186,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between test">
+    <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
       {productsData.map((item) => {
         return (
           <div className="">
