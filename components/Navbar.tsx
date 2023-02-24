@@ -60,7 +60,7 @@ const Navbar = () => {
     {
       heading: "Explore Products",
       data: [
-        { title: "Mirats Insights illustrate", link: "#" },
+        { title: "Mirats Insights illustrate", link: "about" },
         {
           title: "Mirats Insights One",
           link: "#",
