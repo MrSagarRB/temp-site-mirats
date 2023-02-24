@@ -9,6 +9,14 @@ interface NavItem {
   label: string;
   page: string;
 }
+
+interface MenuItem {
+  heading: string;
+  data: {
+    title: string;
+    link: string;
+  }[];
+}
 const Navbar = () => {
   let [showNav, setShowNav] = useState(false);
   let [selectedMenu, setSelectedMenu] = useState<any>("");
@@ -212,7 +220,11 @@ const Navbar = () => {
 
 export default Navbar;
 
-const Menu = ({ props }) => {
+interface MenuProps {
+  props: MenuItem[];
+}
+
+const Menu = ({ props }: MenuProps) => {
   return (
     <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
       {props.map((item) => {
