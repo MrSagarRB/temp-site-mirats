@@ -1,6 +1,4 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "no-html-link-for-pages": "error"
-  }
+  "extends": "next/core-web-vitals"
+ 
 }
