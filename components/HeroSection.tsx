@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="h-screen mt-[-63px] flex relative">
+    <div className="h-screen  flex relative">
       <div className=" w-full h-full absolute z-10">
         <Image
           src={bgImage}
