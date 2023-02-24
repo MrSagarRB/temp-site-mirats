@@ -1,1 +1,1033 @@
-self.__RSC_MANIFEST={"__ssr_module_mapping__":{"30":{"":{"id":"9797","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"9797","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"9797","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"425":{"":{"id":"2910","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"2910","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"2910","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"2092":{"":{"id":"6862","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"6862","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"6862","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"2562":{"":{"id":"6978","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"6978","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"6978","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"3000":{"":{"id":"7682","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"7682","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"7682","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"3972":{"":{"id":"5701","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"5701","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"5701","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"6938":{"":{"id":"3980","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"3980","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"3980","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"7043":{"":{"id":"2030","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"2030","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"2030","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"7954":{"":{"id":"9446","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"9446","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"9446","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"8024":{"":{"id":"237","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"237","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"237","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"9123":{"":{"id":"472","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"472","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"472","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"9464":{"":{"id":"1122","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"1122","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"1122","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"9875":{"":{"id":"3258","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"3258","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"3258","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout":["static/css/0071c78f2f2c9d1a.css"]},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/app-router.js":{"":{"id":"7954","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"7954","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"7954","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/app-router.js":{"":{"id":"7954","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"7954","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"7954","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/error-boundary.js":{"":{"id":"7043","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"7043","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"7043","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/error-boundary.js":{"":{"id":"7043","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"7043","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"7043","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/layout-router.js":{"":{"id":"9875","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"9875","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"9875","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/layout-router.js":{"":{"id":"9875","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"9875","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"9875","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/render-from-template-context.js":{"":{"id":"2092","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"2092","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"2092","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"":{"id":"2092","name":"","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"*":{"id":"2092","name":"*","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false},"default":{"id":"2092","name":"default","chunks":["272:webpack-24064f837b7a3d9f","17:17-bb4b2c096b693144","744:main-app-9bdb2b47f81d42dd"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/styles/globals.css":{"default":{"id":"6729","name":"default","chunks":["static/css/0071c78f2f2c9d1a.css"]}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/image.js":{"":{"id":"30","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"30","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"30","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/image.js":{"":{"id":"30","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"30","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"30","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card logo.png":{"":{"id":"3972","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"3972","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"3972","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/loader.png":{"":{"id":"6938","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"6938","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"6938","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/AtYourService.tsx":{"":{"id":"8024","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"8024","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"8024","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/HeroSection.tsx":{"":{"id":"2562","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"2562","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"2562","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/herobg.png":{"":{"id":"2562","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"2562","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"2562","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Impact.tsx":{"":{"id":"9123","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"9123","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"9123","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Products.tsx":{"":{"id":"3000","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"3000","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"3000","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Solutions.tsx":{"":{"id":"425","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"425","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"425","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg1.png":{"":{"id":"425","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"425","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"425","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg2.png":{"":{"id":"425","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"425","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"425","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg3.png":{"":{"id":"425","name":"","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"*":{"id":"425","name":"*","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false},"default":{"id":"425","name":"default","chunks":["153:153-f6c20cc1b48a14f4","931:app/page-2acea6c17357cda5"],"async":false}},"/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout.tsx":{"":{"id":"9464","name":"","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"*":{"id":"9464","name":"*","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false},"default":{"id":"9464","name":"default","chunks":["153:153-f6c20cc1b48a14f4","185:app/layout-22a249a570119368"],"async":false}}}
+self.__RSC_MANIFEST={
+  "__ssr_module_mapping__": {
+    "(app-client)/./assets/card bg1.png": {
+      "": {
+        "id": "(sc_client)/./assets/card bg1.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/card bg1.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/card bg1.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./assets/card bg2.png": {
+      "": {
+        "id": "(sc_client)/./assets/card bg2.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/card bg2.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/card bg2.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./assets/card bg3.png": {
+      "": {
+        "id": "(sc_client)/./assets/card bg3.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/card bg3.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/card bg3.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./assets/card logo.png": {
+      "": {
+        "id": "(sc_client)/./assets/card logo.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/card logo.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/card logo.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./assets/herobg.png": {
+      "": {
+        "id": "(sc_client)/./assets/herobg.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/herobg.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/herobg.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./assets/loader.png": {
+      "": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./assets/loader.png",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/AtYourService.tsx": {
+      "": {
+        "id": "(sc_client)/./components/AtYourService.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/AtYourService.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/AtYourService.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/HeroSection.tsx": {
+      "": {
+        "id": "(sc_client)/./components/HeroSection.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/HeroSection.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/HeroSection.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Impact.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Impact.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Impact.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Impact.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Products.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Products.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Products.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Products.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Solutions.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Solutions.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Solutions.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Solutions.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.tsx": {
+      "": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/styles/globals.css": {
+    "default": {
+      "id": "./styles/globals.css",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg1.png": {
+    "": {
+      "id": "(app-client)/./assets/card bg1.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/card bg1.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/card bg1.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg2.png": {
+    "": {
+      "id": "(app-client)/./assets/card bg2.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/card bg2.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/card bg2.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card bg3.png": {
+    "": {
+      "id": "(app-client)/./assets/card bg3.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/card bg3.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/card bg3.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/card logo.png": {
+    "": {
+      "id": "(app-client)/./assets/card logo.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/card logo.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/card logo.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/herobg.png": {
+    "": {
+      "id": "(app-client)/./assets/herobg.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/herobg.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/herobg.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/assets/loader.png": {
+    "": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./assets/loader.png",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/AtYourService.tsx": {
+    "": {
+      "id": "(app-client)/./components/AtYourService.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/AtYourService.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/AtYourService.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/HeroSection.tsx": {
+    "": {
+      "id": "(app-client)/./components/HeroSection.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/HeroSection.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/HeroSection.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Impact.tsx": {
+    "": {
+      "id": "(app-client)/./components/Impact.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Impact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Impact.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Products.tsx": {
+    "": {
+      "id": "(app-client)/./components/Products.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Products.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Products.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/components/Solutions.tsx": {
+    "": {
+      "id": "(app-client)/./components/Solutions.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Solutions.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Solutions.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/layout.tsx": {
+    "": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  }
+}

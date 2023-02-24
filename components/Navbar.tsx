@@ -19,7 +19,7 @@ interface MenuItem {
 }
 const Navbar = () => {
   let [showNav, setShowNav] = useState(false);
-  let [selectedMenu, setSelectedMenu] = useState<any>("");
+  let [selectedMenu, setSelectedMenu] = useState<String>(" ");
 
   const NAV_ITEMS: Array<NavItem> = [
     {
@@ -47,7 +47,7 @@ const Navbar = () => {
   let handleOnLeave = () => {
     setTimeout(() => {
       setSelectedMenu("");
-    }, 500);
+    }, 1000);
   };
 
   useEffect(() => {
@@ -152,6 +152,45 @@ const Navbar = () => {
     },
   ];
 
+  let industry = [
+    {
+      heading: "Explore Industries",
+      data: [
+        { title: "Consumer Packaged Goods", link: "#" },
+        {
+          title: "Financial Services",
+          link: "#",
+        },
+        {
+          title: "Marketing Research",
+          link: "#",
+        },
+        {
+          title: "Healthcare",
+          link: "#",
+        },
+        {
+          title: "Consulting",
+          link: "#",
+        },
+        {
+          title: "Media & Technology",
+          link: "#",
+        },
+      ],
+    },
+    {
+      heading: "More from Products",
+      data: [
+        { title: "illustrate Support", link: "#" },
+        {
+          title: "MI One Support",
+          link: "#",
+        },
+      ],
+    },
+  ];
+
   console.log(selectedMenu);
   let getCorrectMenu = (selectedMenu: String) => {
     switch (selectedMenu) {
@@ -162,23 +201,17 @@ const Navbar = () => {
         return <Menu props={solutions} />;
         break;
       case "Industry":
-        return <Industry />;
+        return <Menu props={industry} />;
         break;
     }
   };
   return (
-    <motion.header
-      initial={{
-        height: 0,
-        opacity: 0,
-      }}
-      animate={{
-        height: "auto",
-        opacity: 1,
-      }}
+    <div
       onMouseEnter={() => setShowNav(true)}
       onMouseLeave={() => handleOnLeave()}
-      className={`bg-[#fff]  min-h-[63px] w-full flex items-center justify-center fixed top-0 z-40  duration-500 py-[20px]   `}
+      className={`${
+        selectedMenu === "" ? "bg-[#ECECEC73]" : "bg-[#fff]"
+      }   min-h-[63px]  w-full flex items-center justify-center fixed top-0 z-40  duration-500 py-[20px]  `}
     >
       <div className="flex flex-col  items-center  ">
         <div className="flex items-center gap-[45px] ">
@@ -214,7 +247,7 @@ const Navbar = () => {
           {getCorrectMenu(selectedMenu)}
         </div>
       </div>
-    </motion.header>
+    </div>
   );
 };
 
@@ -226,7 +259,9 @@ interface MenuProps {
 
 const Menu = ({ props }: MenuProps) => {
   return (
-    <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
+    <div
+      className={`w-full mt-[16px] grid grid-cols-3  place-content-between  overflow-hidden  duration-500  `}
+    >
       {props.map((item, idx) => {
         return (
           <div key={idx} className="">
@@ -237,7 +272,7 @@ const Menu = ({ props }: MenuProps) => {
                   <Link
                     key={idx}
                     href={item.link}
-                    className="text-[20px] font-[600]"
+                    className="text-[20px] font-[600] hover:text-[#4365dd] duration-300"
                   >
                     {item.title}
                   </Link>
@@ -249,80 +284,4 @@ const Menu = ({ props }: MenuProps) => {
       })}
     </div>
   );
-};
-
-const Solutions = () => {
-  let productsData = [
-    {
-      heading: "Quantitative Solutions",
-      data: [
-        { title: "Online Surveys", link: "#" },
-        {
-          title: "DIY Surveys",
-          link: "#",
-        },
-        {
-          title: "Global Sample",
-          link: "#",
-        },
-        {
-          title: "Global Quantitative Fieldwork",
-          link: "#",
-        },
-        {
-          title: "End to End Sample Service",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "Qualitative Solutions",
-      data: [
-        { title: "In-person Qual", link: "#" },
-        {
-          title: "Digital Qual",
-          link: "#",
-        },
-        {
-          title: "Telephonic Qual",
-          link: "#",
-        },
-        {
-          title: "Global Qualitative Fieldwork",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "Specialist Solutions",
-      data: [
-        { title: "Recruitment", link: "#" },
-        {
-          title: "Digital Qual",
-          link: "#",
-        },
-        {
-          title: "Consulting",
-          link: "#",
-        },
-        {
-          title: "Hybrid Research",
-          link: "#",
-        },
-        {
-          title: "Product Tests",
-          link: "#",
-        },
-        {
-          title: "Transcription",
-          link: "#",
-        },
-      ],
-    },
-  ];
-  return <div className="h-[300px] w-full">Solution</div>;
-};
-
-const Industry = () => {
-  return <div className="h-[400px] w-full">Industry </div>;
 };
