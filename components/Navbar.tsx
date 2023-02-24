@@ -227,14 +227,18 @@ interface MenuProps {
 const Menu = ({ props }: MenuProps) => {
   return (
     <div className=" w-full mt-[60px] grid grid-cols-3  place-content-between ">
-      {props.map((item) => {
+      {props.map((item, idx) => {
         return (
-          <div className="">
+          <div key={idx} className="">
             <p className="text-[15px]"> {item.heading}</p>
             <div className="mt-[10px] flex flex-col">
-              {item?.data?.map((item) => {
+              {item?.data?.map((item, idx) => {
                 return (
-                  <Link href={item.link} className="text-[20px] font-[600]">
+                  <Link
+                    key={idx}
+                    href={item.link}
+                    className="text-[20px] font-[600]"
+                  >
                     {item.title}
                   </Link>
                 );
