@@ -32,6 +32,140 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "#company",
   },
 ];
+let productsData = [
+  {
+    heading: "Explore Products",
+    data: [
+      { title: "Mirats Insights illustrate", link: "about" },
+      {
+        title: "Mirats Insights One",
+        link: "#",
+      },
+      {
+        title: "Mirats Insights Blaze",
+        link: "#",
+      },
+    ],
+  },
+  {
+    heading: "More from Products",
+    data: [
+      { title: "illustrate Support", link: "#" },
+      {
+        title: "MI One Support",
+        link: "#",
+      },
+    ],
+  },
+];
+
+let solutions = [
+  {
+    heading: "Quantitative Solutions",
+    data: [
+      { title: "Online Surveys", link: "#" },
+      {
+        title: "DIY Surveys",
+        link: "#",
+      },
+      {
+        title: "Global Sample",
+        link: "#",
+      },
+      {
+        title: "Global Quantitative Fieldwork",
+        link: "#",
+      },
+      {
+        title: "End to End Sample Service",
+        link: "#",
+      },
+    ],
+  },
+  {
+    heading: "Qualitative Solutions",
+    data: [
+      { title: "In-person Qual", link: "#" },
+      {
+        title: "Digital Qual",
+        link: "#",
+      },
+      {
+        title: "Telephonic Qual",
+        link: "#",
+      },
+      {
+        title: "Global Qualitative Fieldwork",
+        link: "#",
+      },
+    ],
+  },
+  {
+    heading: "Specialist Solutions",
+    data: [
+      { title: "Recruitment", link: "#" },
+      {
+        title: "Digital Qual",
+        link: "#",
+      },
+      {
+        title: "Consulting",
+        link: "#",
+      },
+      {
+        title: "Hybrid Research",
+        link: "#",
+      },
+      {
+        title: "Product Tests",
+        link: "#",
+      },
+      {
+        title: "Transcription",
+        link: "#",
+      },
+    ],
+  },
+];
+
+let industry = [
+  {
+    heading: "Explore Industries",
+    data: [
+      { title: "Consumer Packaged Goods", link: "#" },
+      {
+        title: "Financial Services",
+        link: "#",
+      },
+      {
+        title: "Marketing Research",
+        link: "#",
+      },
+      {
+        title: "Healthcare",
+        link: "#",
+      },
+      {
+        title: "Consulting",
+        link: "#",
+      },
+      {
+        title: "Media & Technology",
+        link: "#",
+      },
+    ],
+  },
+  {
+    heading: "More from Products",
+    data: [
+      { title: "illustrate Support", link: "#" },
+      {
+        title: "MI One Support",
+        link: "#",
+      },
+    ],
+  },
+];
 
 interface MenuItem {
   heading: string;
@@ -41,143 +175,8 @@ interface MenuItem {
   }[];
 }
 const Navbar = () => {
-  let [expandNav, setExpandnav] = useState(true);
-  let [selectedMenu, setSelectedMenu] = useState<String>(" ");
-
-  let productsData = [
-    {
-      heading: "Explore Products",
-      data: [
-        { title: "Mirats Insights illustrate", link: "about" },
-        {
-          title: "Mirats Insights One",
-          link: "#",
-        },
-        {
-          title: "Mirats Insights Blaze",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "More from Products",
-      data: [
-        { title: "illustrate Support", link: "#" },
-        {
-          title: "MI One Support",
-          link: "#",
-        },
-      ],
-    },
-  ];
-
-  let solutions = [
-    {
-      heading: "Quantitative Solutions",
-      data: [
-        { title: "Online Surveys", link: "#" },
-        {
-          title: "DIY Surveys",
-          link: "#",
-        },
-        {
-          title: "Global Sample",
-          link: "#",
-        },
-        {
-          title: "Global Quantitative Fieldwork",
-          link: "#",
-        },
-        {
-          title: "End to End Sample Service",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "Qualitative Solutions",
-      data: [
-        { title: "In-person Qual", link: "#" },
-        {
-          title: "Digital Qual",
-          link: "#",
-        },
-        {
-          title: "Telephonic Qual",
-          link: "#",
-        },
-        {
-          title: "Global Qualitative Fieldwork",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "Specialist Solutions",
-      data: [
-        { title: "Recruitment", link: "#" },
-        {
-          title: "Digital Qual",
-          link: "#",
-        },
-        {
-          title: "Consulting",
-          link: "#",
-        },
-        {
-          title: "Hybrid Research",
-          link: "#",
-        },
-        {
-          title: "Product Tests",
-          link: "#",
-        },
-        {
-          title: "Transcription",
-          link: "#",
-        },
-      ],
-    },
-  ];
-
-  let industry = [
-    {
-      heading: "Explore Industries",
-      data: [
-        { title: "Consumer Packaged Goods", link: "#" },
-        {
-          title: "Financial Services",
-          link: "#",
-        },
-        {
-          title: "Marketing Research",
-          link: "#",
-        },
-        {
-          title: "Healthcare",
-          link: "#",
-        },
-        {
-          title: "Consulting",
-          link: "#",
-        },
-        {
-          title: "Media & Technology",
-          link: "#",
-        },
-      ],
-    },
-    {
-      heading: "More from Products",
-      data: [
-        { title: "illustrate Support", link: "#" },
-        {
-          title: "MI One Support",
-          link: "#",
-        },
-      ],
-    },
-  ];
+  let [expandNav, setExpandnav] = useState(false);
+  let [selectedMenu, setSelectedMenu] = useState<String>("Products");
 
   console.log(selectedMenu);
   let getCorrectMenu = (selectedMenu: String) => {
@@ -215,7 +214,11 @@ const Navbar = () => {
                 <p
                   onMouseEnter={() => setSelectedMenu(item.label)}
                   key={idx}
-                  className="cursor-pointer"
+                  className={`${
+                    selectedMenu === item.label
+                      ? "border-b-2 border-b-blue-500 duration-300"
+                      : "border-b-2 border-b-transparent"
+                  } cursor-pointer `}
                 >
                   {item.label}
                 </p>
