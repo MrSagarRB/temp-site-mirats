@@ -493,6 +493,32 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/about/page.tsx": {
+      "": {
+        "id": "(sc_client)/./app/about/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/about/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/about/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/about/page:app/about/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -1130,6 +1156,32 @@
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/atomostechnologies/Desktop/IMP Projects/show-case/next-app/app/about/page.tsx": {
+    "": {
+      "id": "(app-client)/./app/about/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/about/page:app/about/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/about/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about/page:app/about/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/about/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/about/page:app/about/page"
       ],
       "async": false
     }

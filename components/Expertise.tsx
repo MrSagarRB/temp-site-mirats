@@ -6,7 +6,7 @@ const Expertise = () => {
       <p className="font-[700] text-[86px] leading-[86px]">
         Expertise where it counts.
       </p>
-      <div className=" flex justify-between mt-[100px] ">
+      <div className=" grid grid-cols-1 md:grid-cols-2 mt-[100px] ">
         <div className="">
           <p className="text-[26px]"> Up to</p>
           <p className="text-[56px] font-[700]">$1.3M+ </p>

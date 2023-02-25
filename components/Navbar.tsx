@@ -220,7 +220,7 @@ const Navbar = () => {
               <Image src={miLogo} alt="mirats insights logo" />
             </Link>
           </div>
-          <nav className="flex space-x-6 font-[400] text-[14px]">
+          <nav className="hidden md:flex space-x-6 font-[400] text-[14px] ">
             {NAV_ITEMS.map((item, idx) => {
               return (
                 <p
