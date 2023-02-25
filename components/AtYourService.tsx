@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
+import manImg from "../assets/man.png";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const AtYourService = () => {
   return (
@@ -37,7 +39,7 @@ const AtYourService = () => {
               </button>
             </div>
           </div>
-          <div className="h-[685px] w-full bg-[#fff]  rounded-[25px] p-[30px]">
+          <div className="h-[685px] w-full bg-[#fff]  rounded-[25px] p-[30px] overflow-hidden relative">
             <p className="text-[30px] font-[500] leading-[100%] text-[#979797]">
               Qualitative
               <br /> Solutions
@@ -50,6 +52,13 @@ const AtYourService = () => {
               <button className="bg-[#AFC7C7] hover:bg-[#000] border border-transparent hover:border-[#ffff] hover:text-[#fff] duration-500 px-[30px] text-[20px] text-[#000000] py-[5px] rounded-[23px] mt-[16px] font-[500]">
                 Learn more.
               </button>
+            </div>
+            <div className=" h-[450px] w-[400px] overflow-hidden absolute bottom-0 right-0 ">
+              <Image
+                src={manImg}
+                alt="man"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
           <div className="h-[685px] w-full bg-[#fff]  rounded-[25px]"> </div>
