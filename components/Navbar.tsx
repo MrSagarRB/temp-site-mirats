@@ -216,7 +216,7 @@ const Navbar = () => {
       <div className="flex flex-col  items-center  ">
         <div className="flex items-center gap-[45px] ">
           <div>
-            <Link href="#">
+            <Link href="/">
               <Image src={miLogo} alt="mirats insights logo" />
             </Link>
           </div>
