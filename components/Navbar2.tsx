@@ -1,37 +1,14 @@
 "use client";
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import miLogo from "../assets/loader.png";
-import Image from "next/image";
-
+import { motion } from "framer-motion";
 interface NavItem {
   label: string;
   page: string;
 }
-
-const NAV_ITEMS: Array<NavItem> = [
-  {
-    label: "Products",
-    page: "#products",
-  },
-  {
-    label: "Solutions",
-    page: "#solutions",
-  },
-  {
-    label: "Industry",
-    page: "#industry",
-  },
-  {
-    label: "Resources",
-    page: "#resources",
-  },
-  {
-    label: "Company",
-    page: "#company",
-  },
-];
 
 interface MenuItem {
   heading: string;
@@ -41,8 +18,43 @@ interface MenuItem {
   }[];
 }
 const Navbar = () => {
-  let [expandNav, setExpandnav] = useState(true);
+  let [showNav, setShowNav] = useState(false);
   let [selectedMenu, setSelectedMenu] = useState<String>(" ");
+
+  const NAV_ITEMS: Array<NavItem> = [
+    {
+      label: "Products",
+      page: "#products",
+    },
+    {
+      label: "Solutions",
+      page: "#solutions",
+    },
+    {
+      label: "Industry",
+      page: "#industry",
+    },
+    {
+      label: "Resources",
+      page: "#resources",
+    },
+    {
+      label: "Company",
+      page: "#company",
+    },
+  ];
+
+  let handleOnLeave = () => {
+    setTimeout(() => {
+      setSelectedMenu("");
+    }, 1000);
+  };
+
+  useEffect(() => {
+    // setTimeout(() => {
+    //   setShowNav(true);
+    // }, 1000);
+  }, []);
 
   let productsData = [
     {
@@ -194,22 +206,21 @@ const Navbar = () => {
     }
   };
   return (
-    <header>
-      <div
-        onMouseEnter={() => setExpandnav(true)}
-        onMouseLeave={() => setExpandnav(false)}
-        className={`  ${
-          expandNav ? "h-[300px] bg-white " : "bg-[#ECECEC73] h-[60px]"
-        } fixed top-0 z-40 w-full duration-500 transition-all overflow-hidden xl:px-[200px]`}
-      >
-        <div className="  items-center">
-          <nav className=" hidden md:flex items-center space-x-6 font-[400] text-[14px] h-[60px] ">
-            <div>
-              <Link href="/">
-                <Image src={miLogo} alt="mirats insights logo" />
-              </Link>
-            </div>
-
+    <div
+      onMouseEnter={() => setShowNav(true)}
+      onMouseLeave={() => handleOnLeave()}
+      className={`${
+        selectedMenu === "" ? "bg-[#ECECEC73]" : "bg-[#fff]"
+      }   min-h-[63px]   w-full flex items-center justify-center fixed top-0 z-40 transition-all  duration-500 py-[20px]  `}
+    >
+      <div className="flex flex-col  items-center  ">
+        <div className="flex items-center gap-[45px] ">
+          <div>
+            <Link href="/">
+              <Image src={miLogo} alt="mirats insights logo" />
+            </Link>
+          </div>
+          <nav className="hidden md:flex space-x-6 font-[400] text-[14px] ">
             {NAV_ITEMS.map((item, idx) => {
               return (
                 <p
@@ -221,30 +232,22 @@ const Navbar = () => {
                 </p>
               );
             })}
-            <button className="px-[15px] py-[5px] border border-[#000000] hover:bg-[#000000] hover:text-[#ffff] rounded-[23px] duration-500">
-              Contact Sales
-            </button>
-            <button className="px-[15px] py-[5px] border border-transparent  hover:border-[#000000] rounded-[23px] hover:bg-transparent bg-[#E3E3E3] duration-500">
-              Start Free Trial
-            </button>
           </nav>
-          <div className=" ">
-            <div className="onLeaveTransition w-full  ">
-              {getCorrectMenu(selectedMenu)}
-            </div>
-          </div>
+          <button
+            onMouseEnter={() => setShowNav(!showNav)}
+            className="px-[15px] py-[5px] border border-[#000000] hover:bg-[#000000] hover:text-[#ffff] rounded-[23px] duration-500"
+          >
+            Contact Sales
+          </button>
+          <button className="px-[15px] py-[5px] border border-transparent  hover:border-[#000000] rounded-[23px] hover:bg-transparent bg-[#E3E3E3] duration-500">
+            Start Free Trial
+          </button>
+        </div>
+        <div className="onLeaveTransition w-full  ">
+          {getCorrectMenu(selectedMenu)}
         </div>
       </div>
-      {expandNav && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          exit={{ opacity: 0 }}
-          className={` backdrop-blur-sm bg-[#D9D9D933]  blur-md h-screen fixed  top-[60px]  w-full   z-30 `}
-        ></motion.div>
-      )}
-    </header>
+    </div>
   );
 };
 

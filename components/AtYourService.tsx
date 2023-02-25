@@ -7,12 +7,7 @@ import protoGrid from "../assets/grid.png";
 
 const AtYourService = () => {
   return (
-    <motion.div
-      whileInView={{ y: 0 }}
-      initial={{ y: 200 }}
-      transition={{ duration: 0.7 }}
-      className=" px-[200px] py-[100px] bg-[#EDEDED] w-full   "
-    >
+    <motion.div className=" px-[200px] py-[100px] bg-[#EDEDED] w-full   ">
       <div className=" 2xl:w-[1240px] ml-auto mr-auto ">
         <p className="font-[700] text-[86px] leading-[86px]">
           At your service. <br /> Every step of the way..
