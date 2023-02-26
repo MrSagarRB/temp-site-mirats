@@ -14,9 +14,9 @@ const Solutions = () => {
       initial={{ y: 200 }}
       transition={{ duration: 0.7 }}
       id="solutions"
-      className=" px-[200px] pt-[100px] "
+      className=" lg:px-[200px] pt-[100px] "
     >
-      <div className=" h-full w-full grid grid-cols-2 gap-[25px] ">
+      <div className=" h-full w-full grid grid-cols-1 sm:grid-cols-2 lg:gap-[25px] space-y-6 sm:gap-[20px]  sm:space-y-0">
         <div className=" rounded-2xl h-[600px] overflow-hidden relative">
           <div className="h-full w-full absolute z-20">
             <Image

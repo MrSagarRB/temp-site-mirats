@@ -14,14 +14,14 @@ export default function Home() {
       <div className="2xl:w-[1440px] ml-auto mr-auto ">
         <Products />
         <Solutions />
-        <Impact />
-        <Carousel />
+        {/* <Impact />
+        <Carousel /> */}
       </div>
-      <AtYourService />
+      {/* <AtYourService />
       <div className="2xl:w-[1440px] ml-auto mr-auto  px-[244px] 2xl:px-0">
         {" "}
         <Expertise />
-      </div>
+      </div> */}
     </main>
   );
 }
