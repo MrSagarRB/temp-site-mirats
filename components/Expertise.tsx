@@ -2,7 +2,7 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <section className="h-screen flex flex-col w-full  pt-[100px] ">
+    <section className=" flex flex-col w-full  pt-[100px]  px-[20px] lg:px-0 ">
       <p className="font-[700] text-[86px] leading-[86px]">
         Expertise where it counts.
       </p>

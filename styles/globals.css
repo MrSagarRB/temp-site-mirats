@@ -96,7 +96,7 @@
   margin-left: 31px;
   animation: dots 2.8s infinite;
 }
-span {
+.loader {
   display: block;
   float: left;
   width: 16px;
@@ -130,4 +130,17 @@ span {
     #db36a4,
     #f7ff00
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-linerGradient1 {
+  background: linear-gradient(
+    168.76deg,
+    #cd4dca 14.46%,
+    rgba(116, 96, 203, 0.88) 23.69%,
+    #1ab4d5 33.42%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

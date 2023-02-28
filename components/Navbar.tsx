@@ -254,18 +254,10 @@ const Navbar = () => {
           expandNav ? "w-full bg-white" : "w-full bg-[#ECECEC73] "
         }    fixed top-0   z-30 py-[10px] pr-[10px] duration-500`}
       >
-        {/* <GiHamburgerMenu
-          onClick={() => setExpandnav(!expandNav)}
-          className="text-[50px]"
-        /> */}
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-0">
             {" "}
-            <Hamburger
-              // onClick={() => setExpandnav(!expandNav)}
-              toggled={expandNav}
-              toggle={setExpandnav}
-            />
+            <Hamburger toggled={expandNav} toggle={setExpandnav} />
             <div>
               <Link href="/">
                 <Image src={miLogo} alt="mirats insights logo" />
